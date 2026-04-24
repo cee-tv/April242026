@@ -59,10 +59,10 @@ const channels = [
         name: 'CINEMA ONE',
         category: 'iWantTFC',
         type: 'mpd',
-        url: 'https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd',
+        url: 'https://abslive.akamaized.net/dash/live/2027618/c1ph/manifest.mpd',
         drm:
         {
-            clearkey: {keyId: '58d0e56991194043b8fb82feb4db7276',key: 'd68f41b59649676788889e19fb10d22c',},
+            clearkey: {keyId: '55eddd1e157e4c3b830866e4679e7032',key: '525030e984567ba8df0af80660952368',},
         },
     },
     {
@@ -78,25 +78,17 @@ const channels = [
     },
     {
         number: 10,
-        name: 'GMA PINOY TV',
+        name: 'GMA',
         category: 'iWantTFC',
-        type: 'mpd',
-        url: 'https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd',
-        drm:
-        {
-            clearkey: {keyId: 'c95ed4c44b0b4f7fa1c6ebbbbaab21a1',key: '47635b8e885e19f2ccbdff078c207058',},
-        },
+        type: 'hls',
+        url: 'http://204.52.191.254/play/live.php?mac=00:1A:79:7b:ab:a5&stream=440523&extension=m3u8',
     },
     {
         number: 11,
-        name: 'KAPAMILYA CHANNEL',
+        name: 'GTV',
         category: 'iWantTFC',
-        type: 'mpd',
-        url: 'https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/index.mpd',
-        drm:
-        {
-            clearkey: {keyId: 'bd17afb5dc9648a39be79ee3634dd4b8',key: '3ecf305d54a7729299b93a3d69c02ea5',},
-        },
+        type: 'hls',
+        url: 'http://204.52.191.254/play/live.php?mac=00:1A:79:7b:ab:a5&stream=1548700&extension=m3u8',
     },
     {
         number: 12,
@@ -147,10 +139,10 @@ const channels = [
         name: 'A2Z',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_a2z/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'f703e4c8ec9041eeb5028ab4248fa094',key: 'c22f2162e176eee6273a5d0b68d19530',},
+            clearkey: {keyId: '3f6d8a2c1b7e4c9f8d52a7e1b0c6f93d',key: '4019f9269b9054a2b9e257b114ebbaf2',},
         },
     },
     {

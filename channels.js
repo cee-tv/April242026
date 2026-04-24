@@ -633,7 +633,7 @@ const channels = [
         name: 'NBA TV PHILIPPINES',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://cdnec01.mediaquest.com.ph/bpk-token/2ab@hxklhpa1kn32bkmvhhivxvwo4yzv00zdhtd2m4ba/bpk-tv/cgnl_nba/default/index.mpd?bkm-query',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cgnl_nba/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'd1f8a0c97b3d4e529a6f2c4b8d7e1f90',key: '58ab331d14b66bf31aca4284e0a3e536',},
@@ -655,7 +655,7 @@ const channels = [
         name: 'NHK WORLD JAPAN',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nhk_japan.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_nhk_japan/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '3d6e9d4de7d7449aadd846b7a684e564',key: '0800fff80980f47f7ac6bc60b361b0cf',},
@@ -666,7 +666,7 @@ const channels = [
         name: 'NICK JR.',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nickjr.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_nickelodeon/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'bab5c11178b646749fbae87962bf5113',key: '0ac679aad3b9d619ac39ad634ec76bc8',},
@@ -677,7 +677,7 @@ const channels = [
         name: 'NICKELODEON',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_nickelodeon.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_nickelodeon/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '9ce58f37576b416381b6514a809bfd8b',key: 'f0fbb758cdeeaddfa3eae538856b4d72',},
@@ -699,10 +699,10 @@ const channels = [
         name: 'ONE PH',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/oneph_sd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '92834ab4a7e1499b90886c5d49220e46',key: 'a7108d9a6cfcc1b7939eb111daf09ab3',},
+            clearkey: {keyId: 'b1c7e9d24f8a4d6c9e337a2f1c5b8d60',key: '8ff2e524cc1e028f2a4d4925e860c796',},
         },
     },
     {
@@ -710,10 +710,10 @@ const channels = [
         name: 'ONE SPORTS',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_onesportsplus_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '53c3bf2eba574f639aa21f2d4409ff11',key: '3de28411cf08a64ea935b9578f6d0edd',},
+            clearkey: {keyId: 'f00bd0122a8a4da1a49ea6c49f7098ad',key: 'a4079f3667ba4c2bcfdeb13e45a6e9c6',},
         },
     },
     {

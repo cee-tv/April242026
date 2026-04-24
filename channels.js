@@ -556,7 +556,7 @@ const channels = [
         name: 'KBS WORLD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_kbsworld.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/kbsworld/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '22ff2347107e4871aa423bea9c2bd363',key: 'c6e7ba2f48b3a3b8269e8bc360e60404',},
@@ -567,10 +567,10 @@ const channels = [
         name: 'KIX',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/kix_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'a8d5712967cd495ca80fdc425bc61d6b',key: 'f248c29525ed4c40cc39baeee9634735',},
+            clearkey: {keyId: 'c9d4b7a18e2f4d6c9a103f5b7e1c2d88',key: '7f3139092bf87d8aa51ee40e6294d376',},
         },
     },
     {
@@ -578,10 +578,10 @@ const channels = [
         name: 'KNOWLEDGE CHANNEL',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/knowledge_channel/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '0f856fa0412b11edb8780242ac120002',key: '783374273ef97ad3bc992c1d63e091e7',},
+            clearkey: {keyId: 'c7d2b1e94f8a4d6c8a106b3d1f9c2e55',key: '2052f6b844aa53144bb32f0e41295106',},
         },
     },
     {
@@ -589,7 +589,7 @@ const channels = [
         name: 'LIFETIME',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_lifetime.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_lifetime/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'cf861d26e7834166807c324d57df5119',key: '64a81e30f6e5b7547e3516bbf8c647d0',},
@@ -600,7 +600,7 @@ const channels = [
         name: 'LOTUS MACAU',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/lotusmacau_prd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '60dc692e64ea443a8fb5ac186c865a9b',key: '01bdbe22d59b2a4504b53adc2f606cc1',},
@@ -611,7 +611,7 @@ const channels = [
         name: 'MOONBUG KIDS',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_moonbug_kids_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '0bf00921bec94a65a124fba1ef52b1cd',key: '0f1488487cbe05e2badc3db53ae0f29f',},

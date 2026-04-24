@@ -336,7 +336,7 @@ const channels = [
         name: 'CNA',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_channelnewsasia.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/channelnewsasia/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'b259df9987364dd3b778aa5d42cb9acd',key: '753e3dba96ab467e468269e7e33fb813',},
@@ -347,7 +347,7 @@ const channels = [
         name: 'CRIME+INVESTIGATION',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_crime_invest.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/crime_invest/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '21e2843b561c4248b8ea487986a16d33',key: 'db6bb638ccdfc1ad1a3e98d728486801',},
@@ -358,7 +358,7 @@ const channels = [
         name: 'DEPED TV',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/depedch_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '0f853706412b11edb8780242ac120002',key: '2157d6529d80a760f60a8b5350dbc4df',},
@@ -369,7 +369,7 @@ const channels = [
         name: 'DISCOVERY',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_discovery.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/discovery/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'd9ac48f5131641a789328257e778ad3a',key: 'b6e67c37239901980c6e37e0607ceee6',},
@@ -380,10 +380,10 @@ const channels = [
         name: 'DREAMWORKS CHANNEL',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_dreamworks_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '4ab9645a2a0a47edbd65e8479c2b9669',key: '8cb209f1828431ce9b50b593d1f44079',},
+            clearkey: {keyId: '7b1e9c4d5a2f4d8c9f106d3a8b2c1e77',key: '8b2904224c6cee13d2d4e06c0a3b2887',},
         },
     },
     {
@@ -391,7 +391,7 @@ const channels = [
         name: 'DREAMWORKS (TAGALIZED)',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_dreamworktag/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '564b3b1c781043c19242c66e348699c5',key: 'd3ad27d7fe1f14fb1a2cd5688549fbab',},
@@ -402,10 +402,10 @@ const channels = [
         name: 'FASHION TV',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/fashiontvhd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '971ebbe2d887476398e97c37e0c5c591',key: '472aa631b1e671070a4bf198f43da0c7',},
+            clearkey: {keyId: '9d7c1f2a6b4e4a8d8f33c1e5b7d2a960',key: '3a18c535c52db7c79823f59036a9d195',},
         },
     },
     {
@@ -413,10 +413,10 @@ const channels = [
         name: 'FOOD NETWORK',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_foodnetwork_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'b7299ea0af8945479cd2f287ee7d530e',key: 'b8ae7679cf18e7261303313b18ba7a14',},
+            clearkey: {keyId: '4a9d2f7c1e6b4c8d8a55d7b1e3f0c926',key: '2e62531bdb450480a18197b14f4ebc77',},
         },
     },
     {
@@ -424,7 +424,7 @@ const channels = [
         name: 'FRANCE 24',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_france24.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/france24/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '257f9fdeb39d41bdb226c2ae1fbdaeb6',key: 'e80ead0f4f9d6038ab34f332713ceaa5',},
@@ -435,21 +435,21 @@ const channels = [
         name: 'GLOBAL TREKKER',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/globaltrekker/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '4553f7e8011f411fb625cefc39274300',key: '98f2f1d153367e84b5d559dc9dfb9a35',},
+            clearkey: {keyId: 'b7a6c5d23f1e4a9d8c721e5d9f4a6b13',key: '63ca9ad0d88fccb8c667b028f47287ba',},
         },
     },
     {
         number: 44,
-        name: 'HBO',
+        name: 'HBO HD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbohd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'd47ebabf7a21430b83a8c4b82d9ef6b1',key: '54c213b2b5f885f1e0290ee4131d425b',},
+            clearkey: {keyId: 'c2b7a1e95d4f4c3a8e617f9d0a2b6c18',key: '27fca1ab042998b0c2f058b0764d7ed4',},
         },
     },
     {
@@ -457,7 +457,7 @@ const channels = [
         name: 'HBO FAMILY',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbofam/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '872910c843294319800d85f9a0940607',key: 'f79fd895b79c590708cf5e8b5c6263be',},
@@ -468,7 +468,7 @@ const channels = [
         name: 'HBO HITS',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbohits/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'b04ae8017b5b4601a5a0c9060f6d5b7d',key: 'a8795f3bdb8a4778b7e888ee484cc7a1',},
@@ -479,7 +479,7 @@ const channels = [
         name: 'HBO SIGNATURE',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbosign/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'a06ca6c275744151895762e0346380f5',key: '559da1b63eec77b5a942018f14d3f56f',},
@@ -487,35 +487,35 @@ const channels = [
     },
     {
         number: 48,
-        name: 'HGTV',
+        name: 'HGTV HD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/hgtv_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/hgtv_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'f0e3ab943318471abc8b47027f384f5a',key: '13802a79b19cc3485d2257165a7ef62a',},
+            clearkey: {keyId: 'f1e8c2d97a3b4f5d8c669d1a2b7e4c30',key: '03aaa7dcf893e6b934aeb3c46f9df5b9',},
         },
     },
     {
         number: 49,
-        name: 'HISTORY',
+        name: 'HISTORY HD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_historyhd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'a7724b7ca2604c33bb2e963a0319968a',key: '6f97e3e2eb2bade626e0281ec01d3675',},
+            clearkey: {keyId: 'e2a8c7d15b9f4d6a9c101f7e3b2d8a44',key: '397ca914a73b1e00bc94ed9eccf9c258',},
         },
     },
     {
         number: 50,
-        name: 'HITS',
+        name: 'HITS HD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/hits_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'dac605bc197e442c93f4f08595a95100',key: '975e27ffc1b7949721ee3ccb4b7fd3e5',},
+            clearkey: {keyId: '6d2f8a1c9b5e4c7da1f03e7b9d6c2a55',key: '37c9835795779f8d848a6119d3270c69',},
         },
     },
     {
@@ -523,10 +523,10 @@ const channels = [
         name: 'HITS MOVIES',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_hitsmovies/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'f56b57b32d7e4b2cb21748c0b56761a7',key: '3df06a89aa01b32655a77d93e09e266f',},
+            clearkey: {keyId: '2c8a5f1e7b9d4c6a9e55f1d7b2a8c360',key: 'c9f622dff27e9e1c1f78617ba3b81a62',},
         },
     },
     {
@@ -534,10 +534,10 @@ const channels = [
         name: 'HITS NOW',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_hitsnow/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '14439a1b7afc4527bb0ebc51cf11cbc1',key: '92b0287c7042f271b266cc11ab7541f1',},
+            clearkey: {keyId: 'f9c3d6b18a2e4d7f9e453b1a8c6d2f70',key: 'ce8874347ec428c624558dcdc3575dd4',},
         },
     },
     {
@@ -545,10 +545,10 @@ const channels = [
         name: 'IBC 13',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/ibc13_sd_new/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '04e292bc99bd4ccba89e778651914254',key: 'ff0a62bdf8920ce453fe680330b563a5',},
+            clearkey: {keyId: '16ecd238c0394592b8d3559c06b1faf5',key: '05b47ae3be1368912ebe28f87480fc84',},
         },
     },
     {

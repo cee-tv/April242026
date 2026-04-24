@@ -172,7 +172,7 @@ const channels = [
         name: 'ANIMAL PLANET',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_animal_planet_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '436b69f987924fcbbc06d40a69c2799a',key: 'c63d5b0d7e52335b61aeba4f6537d54d',},
@@ -183,7 +183,7 @@ const channels = [
         name: 'ARIRANG KOREA',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/arirang_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/arirang_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '13815d0fa026441ea7662b0c9de00bcf',key: '2d99a55743677c3879a068dd9c92f824',},
@@ -194,7 +194,7 @@ const channels = [
         name: 'ASIAN FOOD NETWORK',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/asianfoodnetwork_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '1619db30b9ed42019abb760a0a3b5e7f',key: '5921e47fb290ae263291b851c0b4b6e4',},
@@ -205,10 +205,10 @@ const channels = [
         name: 'AXN',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_axn_sd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'fd5d928f5d974ca4983f6e9295dfe410',key: '3aaa001ddc142fedbb9d5557be43792f',},
+            clearkey: {keyId: '8a6c2f1e9d7b4c5aa1f04d2b7e9c1f88',key: '05e6bfa4b6805c46b772f35326b26b36',},
         },
     },
     {
@@ -216,7 +216,7 @@ const channels = [
         name: 'BBC EARTH',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_bbcearth_hd1/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '34ce95b60c424e169619816c5181aded',key: '0e2a2117d705613542618f58bf26fc8e',},
@@ -235,10 +235,10 @@ const channels = [
     },
     {
         number: 25,
-        name: 'BBC NEWS',
+        name: 'BBC WORLD NEWS',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/bbcworld_news_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/bbcworld_news_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'f59650be475e4c34a844d4e2062f71f3',key: '119639e849ddee96c4cec2f2b6b09b40',},
@@ -249,7 +249,7 @@ const channels = [
         name: 'BILYONARYO NEWS CHANNEL',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/bilyonaryoch.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/bilyonaryoch/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '227ffaf09bec4a889e0e0988704d52a2',key: 'b2d0dce5c486891997c1c92ddaca2cd2',},
@@ -260,10 +260,10 @@ const channels = [
         name: 'BLOOMBERG',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/bloomberg_sd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'ef7d9dcfb99b406cb79fb9f675cba426',key: 'b24094f6ca136af25600e44df5987af4',},
+            clearkey: {keyId: '3b8e6d1f2c9a4f7d9a556c1e7b2d8f90',key: '09f0bd803966c4befbd239cfa75efe23',},
         },
     },
     {
@@ -271,7 +271,7 @@ const channels = [
         name: 'BUKO CHANNEL',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_buko_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'd273c085f2ab4a248e7bfc375229007d',key: '7932354c3a84f7fc1b80efa6bcea0615',},
@@ -282,7 +282,7 @@ const channels = [
         name: 'CARTOON NETWORK',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cartoonnetworkhd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'a2d1f552ff9541558b3296b5a932136b',key: 'cdd48fa884dc0c3a3f85aeebca13d444',},
@@ -304,7 +304,7 @@ const channels = [
         name: 'CELESTIAL MOVIES PINOY',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/celmovie_pinoy_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/celmovie_pinoy_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '0f8537d8412b11edb8780242ac120002',key: '2ffd7230416150fd5196fd7ea71c36f3',},
@@ -312,12 +312,12 @@ const channels = [
     },
     {
         number: 32,
-        name: 'CGTN',
+        name: 'CGTN ENGLISH',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cgtneng.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cgtn/default/index.mpd',
         drm:
-        {clearkey: {keyId: '2782770c21354914922efa9dbc82b513',key: 'cc65d298482da51046b0c0656f3f5f15',},
+        {clearkey: {keyId: '0f854ee4412b11edb8780242ac120002',key: '9f2c82a74e727deadbda389e18798d55',},
         },
     },
     {
@@ -325,7 +325,7 @@ const channels = [
         name: 'CINEMAX',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_cinemax/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'b207c44332844523a3a3b0469e5652d7',key: 'fe71aea346db08f8c6fbf0592209f955',},

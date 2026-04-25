@@ -150,10 +150,10 @@ const channels = [
         name: 'ABC AUSTRALIA',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_abc_aus/default/index.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/abc_aus/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '389497f9f8584a57b234e27e430e04b7',key: '3b85594c7f88604adf004e45c03511c0',},
+            clearkey: {keyId: 'd6f1a8c29b7e4d5a8f332c1e9d7b6a90',key: '790bd17b9e623e832003a993a2de1d87',},
         },
     },
     {

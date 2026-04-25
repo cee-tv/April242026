@@ -1162,7 +1162,6 @@ const channels = [
         category: 'Cignal',
         type: 'hls',
         url: 'https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8',
-        drm:
     },
     {
         number: 110,

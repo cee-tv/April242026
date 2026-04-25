@@ -501,10 +501,10 @@ const channels = [
         name: 'HISTORY HD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_historyhd/default/index.mpd',
+        url: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/dr_historyhd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'e2a8c7d15b9f4d6a9c101f7e3b2d8a44',key: '397ca914a73b1e00bc94ed9eccf9c258',},
+            clearkey: {keyId: 'a7724b7ca2604c33bb2e963a0319968a',key: '6f97e3e2eb2bade626e0281ec01d3675',},
         },
     },
     {

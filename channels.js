@@ -48,10 +48,10 @@ const channels = [
         name: 'ANC',
         category: 'iWantTFC',
         type: 'mpd',
-        url: 'https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd',
+        url: 'https://abslive.akamaized.net/dash/live/2027618/anc-ph3/manifest.mpd',
         drm:
         {
-            clearkey: {keyId: '4bbdc78024a54662854b412d01fafa16',key: '6039ec9b213aca913821677a28bd78ae',},
+            clearkey: {keyId: 'b6d6e536f8fa4d8b93627af0128cf00d',key: 'e73c8dcfdea374ae576ced342f6c73a2',},
         },
     },
     {

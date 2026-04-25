@@ -666,7 +666,7 @@ const channels = [
         name: 'NICK JR.',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_nickelodeon/default/index.mpd',
+        url: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_nickjr/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'bab5c11178b646749fbae87962bf5113',key: '0ac679aad3b9d619ac39ad634ec76bc8',},
@@ -688,10 +688,10 @@ const channels = [
         name: 'ONE NEWS',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/onenews_hd1/default/index.mpd',
+        url: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/onenews_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'd39eb201ae494a0b98583df4d110e8dd',key: '6797066880d344422abd3f5eda41f45f',},
+            clearkey: {keyId: '2e6a9d7c1f4b4c8a8d33c7b1f0a5e924',key: '4c71e178d090332fbfe72e023b59f6d2',},
         },
     },
     {

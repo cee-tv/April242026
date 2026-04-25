@@ -710,10 +710,10 @@ const channels = [
         name: 'ONE SPORTS',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_onesportsplus_hd1/default/index.mpd',
+        url: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesports_hd/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'f00bd0122a8a4da1a49ea6c49f7098ad',key: 'a4079f3667ba4c2bcfdeb13e45a6e9c6',},
+            clearkey: {keyId: '53c3bf2eba574f639aa21f2d4409ff11',key: '3de28411cf08a64ea935b9578f6d0edd',},
         },
     },
     {
@@ -721,7 +721,7 @@ const channels = [
         name: 'ONE SPORTS+',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_onesportsplus_hd1/default/index.mpd',
+        url: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_onesportsplus_hd1/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'f00bd0122a8a4da1a49ea6c49f7098ad',key: 'a4079f3667ba4c2bcfdeb13e45a6e9c6',},

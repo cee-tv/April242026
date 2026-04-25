@@ -70,10 +70,10 @@ const channels = [
         name: 'CINE MO!',
         category: 'iWantTFC',
         type: 'mpd',
-        url: 'https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd',
+        url: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-cinemo-dash-abscbnono/516e9acd-cea2-417a-8d53-b67fa05b75c1/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'aa8aebe35ccc4541b7ce6292efcb1bfb',key: 'aab1df109d22fc5d7e3ec121ddf24e5f',},
+            clearkey: {keyId: 'aa8aebe35ccc4541b7ce6292efcb1bfb',key: 'f06b6031a3604cc6708c14d83f1a1b27',},
         },
     },
     {

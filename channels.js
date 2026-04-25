@@ -78,10 +78,14 @@ const channels = [
     },
     {
         number: 10,
-        name: 'GMA',
+        name: 'Kapamilya Channel',
         category: 'iWantTFC',
-        type: 'hls',
-        url: 'http://204.52.191.254/play/live.php?mac=00:1A:79:7b:ab:a5&stream=440523&extension=m3u8',
+        type: 'mpd',
+        url: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/cf9ed087-2aa4-4118-941c-13910a4c51bc/index.mpd',
+        drm:
+        {
+            clearkey: {keyId: 'bd17afb5dc9648a39be79ee3634dd4b8',key: 'b475084a1a58857e18480e30fbb0e544',},
+        },
     },
     {
         number: 11,

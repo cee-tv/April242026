@@ -278,20 +278,21 @@
     </footer>
   </div>
   <script>
-    let todayKey = '';
+ let todayKey = '';
 let todayKeyDate = '';
 
 function getTodayKeyDate() {
   const d = new Date();
-  const y = d.getUTCFullYear();
-  const m = String(d.getUTCMonth() + 1).padStart(2, '0');
+  const year = d.getUTCFullYear();
+  const month = String(d.getUTCMonth() + 1).padStart(2, '0');
   const day = String(d.getUTCDate()).padStart(2, '0');
-  return `${y}-${m}-${day}`;
+  return year + '-' + month + '-' + day;
 }
 
 async function fetchTodayKey() {
   todayKeyDate = getTodayKeyDate();
-  const url = `https://raw.githubusercontent.com/cee-tv/iptvk3y/main/keys/${todayKeyDate}.txt`;
+  const fileName = todayKeyDate + '.txt';
+  const url = 'https://raw.githubusercontent.com/cee-tv/iptvk3y/main/keys/' + fileName;
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error('Key not found.');
@@ -318,49 +319,64 @@ function getSavedKeyForToday() {
 }
 
 function redirectToMain() {
-  sessionStorage.setItem('gagstack_signedin', 'yes');
-  window.location.href = '/home.html';
+  sessionStorage.setItem('sessionSignedInDate', getTodayKeyDate());
+  window.location.href = 'home.html';
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const form    = document.getElementById('signin-form');
-  const input   = document.getElementById('key-input');
-  const saveCb  = document.getElementById('save-key');
+  const form = document.getElementById('signin-form');
+  const keyInput = document.getElementById('key-input');
+  const saveKeyCheckbox = document.getElementById('save-key');
   const message = document.getElementById('signin-message');
 
   await fetchTodayKey();
 
-  const saved = getSavedKeyForToday();
-  if (saved && saved === todayKey) {
-    message.innerHTML =
-      '<div class="alert alert-success"><i class="bi bi-check-circle"></i> Signed in automatically! Redirecting...</div>';
-    setTimeout(redirectToMain, 800);
+  const remember = localStorage.getItem('rememberKeyEnabled');
+  if (remember === 'true') {
+    tryAutoSignIn();
     return;
+  } else {
+    showSignInForm(message);
   }
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', (e) => {
     e.preventDefault();
     message.innerHTML = '';
 
     if (!todayKey) {
-      message.innerHTML =
-        '<div class="alert alert-warning"><i class="bi bi-exclamation-triangle"></i> Unable to verify key. Please try again later.</div>';
+      message.innerHTML = '<div class="alert alert-warning"><i class="bi bi-exclamation-triangle"></i> Unable to verify key. Please try again later.</div>';
       return;
     }
 
-    if (input.value.trim() === todayKey) {
-      if (saveCb.checked) saveKeyForToday(todayKey);
-      sessionStorage.setItem('gagstack_signedin', 'yes');
-      message.innerHTML =
-        '<div class="alert alert-success"><i class="bi bi-check-circle"></i> Sign in successful! Redirecting...</div>';
+    if (keyInput.value.trim() === todayKey) {
+      if (saveKeyCheckbox.checked) {
+        saveKeyForToday(todayKey);
+        localStorage.setItem('rememberKeyEnabled', 'true');
+      }
+      sessionStorage.setItem('sessionSignedInDate', getTodayKeyDate());
+      message.innerHTML = '<div class="alert alert-success"><i class="bi bi-check-circle"></i> Sign in successful! Redirecting...</div>';
       setTimeout(redirectToMain, 800);
     } else {
-      message.innerHTML =
-        '<div class="alert alert-danger"><i class="bi bi-x-circle"></i> Key is not correct.</div>';
-      input.value = '';
+      message.innerHTML = '<div class="alert alert-danger"><i class="bi bi-x-circle"></i> Key is not correct.</div>';
+      keyInput.value = '';
     }
   });
 });
+
+function tryAutoSignIn() {
+  const message = document.getElementById('signin-message');
+  message.innerHTML = '<div class="alert alert-info"><i class="bi bi-arrow-clockwise"></i> Signing you in automatically...</div>';
+  const savedKey = getSavedKeyForToday();
+  if (savedKey && todayKey && savedKey === todayKey) {
+    sessionStorage.setItem('sessionSignedInDate', getTodayKeyDate());
+    setTimeout(redirectToMain, 800);
+  } else {
+    localStorage.removeItem('rememberKeyEnabled');
+    showSignInForm(message);
+  }
+}
+
+function showSignInForm(message) {}
   </script>
 </body>
 </html>

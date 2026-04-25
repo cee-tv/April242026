@@ -150,7 +150,7 @@ const channels = [
         name: 'ABC AUSTRALIA',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_abc_aus.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_abc_aus/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '389497f9f8584a57b234e27e430e04b7',key: '3b85594c7f88604adf004e45c03511c0',},
@@ -161,7 +161,7 @@ const channels = [
         name: 'AL JAZEERA',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_aljazeera.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_aljazeera/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '7f3d900a04d84492b31fe9f79ac614e3',key: 'd33ff14f50beac42969385583294b8f2',},
@@ -227,7 +227,7 @@ const channels = [
         name: 'BBC LIFESTYLE',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_bbclifestyle.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_bbclifestyle/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '34880f56627c11ee8c990242ac120002',key: 'c23677c829bb244b79a3dc09ffd88ca0',},
@@ -293,7 +293,7 @@ const channels = [
         name: 'CCTV 4',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cctv4.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_cctv4/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'b83566836c0d4216b7107bd7b8399366',key: '32d50635bfd05fbf8189a0e3f6c8db09',},
@@ -622,7 +622,7 @@ const channels = [
         name: 'MPTV',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_mptv/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '6aab8f40536f4ea98e7c97b8f3aa7d4e',key: '139aa5a55ade471faaddacc4f4de8807',},
@@ -644,7 +644,7 @@ const channels = [
         name: 'NBA TV PHILIPPINES (PL)',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_nba/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'f36eed9e95f140fabbc88a08abbeafff',key: '0125600d0eb13359c28bdab4a2ebe75a',},
@@ -688,7 +688,7 @@ const channels = [
         name: 'ONE NEWS',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/onenews_hd1/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'd39eb201ae494a0b98583df4d110e8dd',key: '6797066880d344422abd3f5eda41f45f',},
@@ -754,7 +754,7 @@ const channels = [
         name: 'PL SDI 1',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/pl_sdi1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi1/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'a913faeecaac4813a55240bea0c68858',key: '05b7d7eaba8d6410dbe234336d9b235a',},
@@ -765,7 +765,7 @@ const channels = [
         name: 'PL SDI 2',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_sdi2.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi2/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '2f3056cac18d4e31a59de39767042b03',key: '83728946b898141ae411572f9f5fce0d',},
@@ -776,7 +776,7 @@ const channels = [
         name: 'PL SDI 3',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/pl_sdi3.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi3/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '0c16d5962a22494db502b3453f891208',key: 'acaed175b981b34ae9b5cb0130506854',},
@@ -787,7 +787,7 @@ const channels = [
         name: 'PL SDI 4',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/pl_sdi4.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi4/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'c3050cba95c945418efa3aedbc69cff7',key: '988e7fade0828273472e24545d0cfa4c',},
@@ -798,7 +798,7 @@ const channels = [
         name: 'PL SDI 5',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/pl_sdi5.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi5/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'eecc6d7ac3df439fb2b73fb38007cb82',key: '826c341a6fef4518cefd27ec85e8b274',},
@@ -809,7 +809,7 @@ const channels = [
         name: 'PL SDI 6',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/pl_sdi6.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi6/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '02d5f086706e407e9343c040ac7fb5b8',key: '9d7e088bf7fffc9297ab3a02f0ce9a72',},
@@ -820,7 +820,7 @@ const channels = [
         name: 'PL SDI 7',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pl_sdi7.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi7/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '40bed7f7948e4e5792982cf5b7ee4d78',key: '1fbfd2e3be51aae857f2f24306e5fc41',},
@@ -831,7 +831,7 @@ const channels = [
         name: 'PL SDI 8',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/pl_sdi8.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi8/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '5a8dbf3b9c2c43079a40fb5d0068f9ef',key: '1778ac6e22527ee2efd6886d8d509c2d',},
@@ -842,7 +842,7 @@ const channels = [
         name: 'PL SDI 9',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/pl_sdi9.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi9/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '1c7b9a2af9ad4076b155f06269b6adc2',key: 'ed6a8b11738cd27c0bee2d9e3fee178a',},
@@ -853,7 +853,7 @@ const channels = [
         name: 'PL SDI 10',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/pl_sdi10.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/pl_sdi10/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '63055a8904644407a64a57874703f71e',key: '0fd611777d37a7ff8afce19d9cee2e91',},
@@ -864,7 +864,7 @@ const channels = [
         name: 'SMART SDI 7',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/smart_sdi7.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/smart_sdi7/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '0f873c2c412b11edb8780242ac120002',key: '9c1f27adc2a2dd23ce415e8563c07af6',},
@@ -875,7 +875,7 @@ const channels = [
         name: 'SMART SDI 8',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/smart_sdi8.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/smart_sdi8/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '50ea84d79773464192071d6fc058cba1',key: '0b1642e0a661a780e74835fe765e1319',},
@@ -886,7 +886,7 @@ const channels = [
         name: 'SMART SDI 9',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/smart_sdi9.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/smart_sdi9/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'd2a24c65b3734565af71a1c3a9bbbf69',key: '552351880bd0eb97f85c8aeccd88ffa5',},
@@ -897,7 +897,7 @@ const channels = [
         name: 'PPV SD 197',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/ppvsd197.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/ppvsd197/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '8ad18258a9814d60a67efc6ec9fb3cbd',key: '7ce6edd4bcf1510583c7739ac8f08e79',},
@@ -985,7 +985,7 @@ const channels = [
         name: 'TAP ACTION FLIX',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_tapactionflix_hd1/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'bee1066160c0424696d9bf99ca0645e3',key: 'f5b72bf3b89b9848de5616f37de040b7',},
@@ -1018,7 +1018,7 @@ const channels = [
         name: 'TAP TV',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_taptv_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'f6804251e90b4966889b7df94fdc621e',key: '55c3c014f2bd12d6bd62349658f24566',},
@@ -1084,7 +1084,7 @@ const channels = [
         name: 'TV5 HD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/tv5_hd/default1/index.mpd',
         drm:
         {
             clearkey: {keyId: '2615129ef2c846a9bbd43a641c7303ef',key: '07c7f996b1734ea288641a68e1cfdc4d',},
@@ -1128,7 +1128,7 @@ const channels = [
         name: 'TVUP',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/tvup_prd/default1/index.mpd',
         drm:
         {
             clearkey: {keyId: '83e813ccd4ca4837afd611037af02f63',key: 'a97c515dbcb5dcbc432bbd09d15afd41',},

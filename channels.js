@@ -1029,7 +1029,7 @@ const channels = [
         name: 'THRILL',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_thrill_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '928114ffb2394d14b5585258f70ed183',key: 'a82edc340bc73447bac16cdfed0a4c62',},
@@ -1095,7 +1095,7 @@ const channels = [
         name: 'TV5 MONDE',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tv5_monde.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_tv5_monde/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'fba5a720b4a541b286552899ba86e38b',key: 'f63fa50423148bfcbaa58c91dfcffd0e',},
@@ -1106,7 +1106,7 @@ const channels = [
         name: 'TVN PREMIUM',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_tvnpre/default/index.mpd',
         drm:
         {
             clearkey: {keyId: 'e1bde543e8a140b38d3f84ace746553e',key: 'b712c4ec307300043333a6899a402c10',},
@@ -1117,7 +1117,7 @@ const channels = [
         name: 'TVN MOVIES PINOY',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_tvnmovie/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '2e53f8d8a5e94bca8f9a1e16ce67df33',key: '3471b2464b5c7b033a03bb8307d9fa35',},
@@ -1139,7 +1139,7 @@ const channels = [
         name: 'UAAP VARSITY CHANNEL',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_uaap_cplay_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '95588338ee37423e99358a6d431324b9',key: '6e0f50a12f36599a55073868f814e81e',},
@@ -1150,7 +1150,7 @@ const channels = [
         name: 'VIVA CINEMA',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/viva_sd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '07aa813bf2c147748046edd930f7736e',key: '3bd6688b8b44e96201e753224adfc8fb',},
@@ -1160,12 +1160,9 @@ const channels = [
         number: 109,
         name: 'WARNER TV',
         category: 'Cignal',
-        type: 'mpd',
-        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd',
+        type: 'hls',
+        url: 'https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8',
         drm:
-        {
-            clearkey: {keyId: '4503cf86bca3494ab95a77ed913619a0',key: 'afc9c8f627fb3fb255dee8e3b0fe1d71',},
-        },
     },
     {
         number: 110,

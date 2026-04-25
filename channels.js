@@ -92,7 +92,7 @@ const channels = [
         name: 'Kapatid Channel',
         category: 'iWantTFC',
         type: 'hls',
-        url: 'https://cdnec01.mediaquest.com.ph/bpk-token/2ab@lter4hjlse05ense5bdn5jc3p00eju5jlxngvwaa/bpk-tv/kapatid_hd/default/index.mpd?bkm-query',
+        url: 'https://cdnsc01.mediaquest.com.ph/bpk-token/2ab@vir3vrwhfwxg03nlufyqic1ldnhkmpnuvogyhkda/bpk-tv/kapatid_hd/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '045d103180f64562b1db7c932741c3ba',key: 'c3380548b9075c767a6ae2006ef4bff8',},

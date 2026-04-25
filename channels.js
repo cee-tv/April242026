@@ -919,10 +919,10 @@ const channels = [
         name: 'ROCK ACTION',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/dr_rockextreme/default/index.mpd',
+        url: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '8d2a6f1c9b7e4c3da5f01e7b9c6d2f44',key: '23841651ebf49fa03fdfcd7b43337f87',},
+            clearkey: {keyId: '0f852fb8412b11edb8780242ac120002',key',key: '4cbc004d8c444f9f996db42059ce8178',},
         },
     },
     {

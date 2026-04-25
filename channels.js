@@ -922,7 +922,7 @@ const channels = [
         url: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: '0f852fb8412b11edb8780242ac120002',key',key: '4cbc004d8c444f9f996db42059ce8178',},
+            clearkey: {keyId: '0f852fb8412b11edb8780242ac120002',key: '4cbc004d8c444f9f996db42059ce8178',},
         },
     },
     {

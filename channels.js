@@ -1040,7 +1040,7 @@ const channels = [
         name: 'TMC',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd',
+        url: 'https://ucdn.mediaquest.com.ph/bpk-tv/cg_tagalogmovie/default/index.mpd',
         drm:
         {
             clearkey: {keyId: '96701d297d1241e492d41c397631d857',key: 'ca2931211c1a261f082a3a2c4fd9f91b',},

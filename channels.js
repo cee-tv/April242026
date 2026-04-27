@@ -732,7 +732,7 @@ const channels = [
         url: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_onesportsplus_hd1/default/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'f00bd0122a8a4da1a49ea6c49f7098ad',key: 'a4079f3667ba4c2bcfdeb13e45a6e9c6',},
+            clearkey: {keyId: 'f00bd0122a8a4da1a49ea6c49f7098ad',key: 'a4079f3667ba4c2bcfdeb13e45a6e9c6    ',},
         },
     },
     {

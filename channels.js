@@ -106,7 +106,7 @@ const channels = [
         url: 'https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd',
         drm:
         {
-            clearkey: {keyId: 'f40a52a3ac9b4702bdd5b735d910fd2f',key: '5ce1bc7f06b494c276252b4d13c90e51',},
+            clearkey: {keyId: 'f40a52a3ac9b4702bdd5b735d910fd2f',key: '35e4893c6e76546085941be3010932d4',},
         },
     },
     {
